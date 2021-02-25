@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <complex.h>
+#define complex _Complex
+#pragma STDC CX_LIMITED_RANGE on
+#include <stdio.h>
+
+complex double CMPLX(double real, double imag);
+
+int main(void)
+{
+    double real = 1.3,
+            imag = 4.9;
+    double complex z
+            = CMPLX(real, imag);
+    printf(
+            "Phase Angle = %.1f radians\n",
+            cargf(z));
+}
+
+complex double CMPLX(double real, double imag) {
+    return real + imag * I;
+}
