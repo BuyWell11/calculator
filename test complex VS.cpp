@@ -21,6 +21,6 @@ int main()
 		com[i].a = _Cbuild(i, i+1);
 	}
 
-	int t = 4;
+	printf("\n%lf %lf", creal(ccos(z)), cimag(ccos(z)));
 	return 0;
 }
