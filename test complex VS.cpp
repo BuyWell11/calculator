@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#define _COMPEX
+#define _COMPLEX
 #include <stdio.h>
 #include <complex.h>
 
