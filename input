@@ -1,0 +1,14 @@
+f = -3 * ( 10 + 5) / ( 60 - 15 )
+
+
+f = 2 + cos ( 30 + 60 ) / exp ( 3 ) - x
+x = 15
+
+f = exp ( -1i * pi * alpha * len / v0 )
+alpha = sqrt ( pi * len / ( s1 + s2 ) )
+s1 = cos ( real ( S11 ) * real ( S22 ) )
+s2 = ( sin ( S11 * S22 ) ) ^ 2
+len = 191.76
+v0 = 299.799
+S11 = -0.01 - 0.92i
+S22 = 0.0001 + 0.997i
